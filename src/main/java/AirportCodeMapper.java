@@ -1,0 +1,59 @@
+
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
+
+public class AirportCodeMapper {
+    private static final Map<String, String> cityToCodeMapping = new HashMap<>();
+
+
+    public static void loadMappingsFromFile() {
+        try (BufferedReader reader = new BufferedReader(new FileReader("src/main/resources/city_codes1.txt"))) {
+//            System.out.println("File found. Absolute Path: " + new File("src/main/resources/city_codes1.txt").getAbsolutePath());
+
+            String line;
+            while ((line = reader.readLine()) != null) {
+                String[] parts = line.split(",");
+                System.out.println(Arrays.toString(parts));
+                if (parts.length == 3) {
+                    String city = parts[1].trim();
+                    String code = parts[0].trim();
+                    System.out.println("City: " + city + ", Code: " + code);
+                    cityToCodeMapping.put(city.toLowerCase(), code.toUpperCase());
+                }
+            }
+
+//            System.out.println("Loaded City Code Mappings:");
+//            cityToCodeMapping.forEach((city, code) -> System.out.println(city + " -> " + code));
+
+        } catch (IOException e) {
+            System.err.println("Error loading mappings from file: " + e.getMessage());
+            e.printStackTrace();
+        }
+    }
+
+
+//    public static String getAirportCode(String code) {
+//        String airportCode = cityToCodeMapping.getOrDefault(code.toLowerCase(), null);
+//        return (airportCode != null) ? "\"" + airportCode + "\"" : "Code not found";
+//    }
+//}
+
+
+    public static String getAirportCode(String code) {
+
+        return cityToCodeMapping.getOrDefault(code.toLowerCase(), null);
+
+
+    }
+}
+
+
+
+
+
+
