@@ -5,30 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0146883-977f-4c99-a68d-2ba70a879a85" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AirportCodeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cities.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/EstimateRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/EstimateRequestVehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/EstimateResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Logs/LogExample.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TransportType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/UserFetcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WebApiFetcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/makeApiRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/response/Leg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/response/Name.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/response/ResponseLeg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/response/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/response/UserResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/city_codes1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/citys.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,6 +83,17 @@
       <updated>1701807550047</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
