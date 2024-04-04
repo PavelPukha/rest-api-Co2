@@ -1,19 +1,19 @@
 
 public class EstimateRequestVehicle {
-   private String type;
-   private Double distance_value;
+   private final String type;
+   private double distanceValueByCar;
 
     public EstimateRequestVehicle(String type, double distance_value) {
         this.type = type;
-        this.distance_value = distance_value;
+        this.distanceValueByCar = distance_value;
 
     }
 
-    public String getType() {
+    public String getTypeOfCar() {
         return type;
     }
 
-    public double getDistanceValue() {
-        return distance_value;
+    public double getDistanceValueByCar() {
+        return distanceValueByCar;
     }
 }

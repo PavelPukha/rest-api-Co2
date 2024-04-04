@@ -1,35 +1,4 @@
 package response;
-//
-//public class User {
-//    private String data;
-////    private Name name;
-////
-////    private Name title;
-////
-////    private Login login;
-////    private String nat;
-////
-////    private String email;
-////
-////    private Login username;
-////    private Login password;
-////
-//
-//
-//    public User() {
-//    }
-//
-//    public String getData() {
-//        return data;
-//    }
-//
-////
-//
-//
-//
-//
-//
-//}
 
 import java.util.List;
 

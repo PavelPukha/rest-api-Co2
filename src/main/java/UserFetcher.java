@@ -27,6 +27,7 @@ import java.io.IOException;
 
 
 // Documentation https://docs.carboninterface.com/#/
+
 public class UserFetcher {
 
     private final ObjectMapper objectMapper = new ObjectMapper().configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);

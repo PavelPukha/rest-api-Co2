@@ -20,6 +20,7 @@ public class WebApiFetcher {
             connection.setRequestProperty("Authorization", "Bearer " + API_KEY);
             connection.setRequestProperty("Content-Type", "application/json");
 
+
             connection.setDoOutput(true);
             try (OutputStream outStream = connection.getOutputStream();
                  OutputStreamWriter outStreamWriter = new OutputStreamWriter(outStream, StandardCharsets.UTF_8)) {

@@ -1,8 +1,8 @@
-
 import java.util.ArrayList;
 import java.util.List;
+
 public class Cities {
-    private List<String> cities;
+    private final List<String> cities;
 
     public Cities() {
         cities = new ArrayList<>();
@@ -22,14 +22,14 @@ public class Cities {
         cities.add("Vienna");
     }
 
+
     public List<String> getCities() {
         return cities;
     }
 
+
     @Override
     public String toString() {
-        return "Cities{" +
-                "cities=" + cities +
-                '}';
+        return "Cities{" + "cities=" + cities + '}';
     }
 }

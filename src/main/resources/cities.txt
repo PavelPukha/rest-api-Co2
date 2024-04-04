@@ -1,0 +1,13 @@
+BER,Berlin
+CDG,Paris
+AMS, Amsterdam
+JFK, New York City, USA
+FCO, Rome, Italy
+SYD, Sydney, Australia
+LHR, London, United Kingdom
+DXB, Dubai, United Arab Emirates
+HKG, Hong Kong
+ICN, Seoul, South Korea
+SIN, Singapore
+YYZ, Toronto, Canada
+MEX, Mexico City, Mexico

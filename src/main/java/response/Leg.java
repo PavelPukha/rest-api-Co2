@@ -2,8 +2,8 @@ package response;
 
 public class Leg {
 
-    String departure_airport;
-    String destination_airport;
+    private String departure_airport;
+    private String destination_airport;
 
     public String getDeparture_airport() {
         return departure_airport;
