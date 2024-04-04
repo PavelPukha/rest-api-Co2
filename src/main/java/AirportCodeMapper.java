@@ -19,7 +19,7 @@ public class AirportCodeMapper {
             while ((line = reader.readLine()) != null) {
                 String[] parts = line.split(",");
                 System.out.println(Arrays.toString(parts));
-                if (parts.length == 3) {
+                if (parts.length == 2) {
                     String city = parts[1].trim();
                     String code = parts[0].trim();
                     System.out.println("City: " + city + ", Code: " + code);
